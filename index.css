@@ -1,0 +1,294 @@
+/*init*/
+html {
+    font-size: 125%;
+    font-family: Arial, "Times New Roman", "Microsoft YaHei", SimSun, SimHei;
+    font-weight:500;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+body{
+    margin: 0;
+}
+
+/*header*/
+header span{
+    font-size: 0.7rem;
+    color: #1DB176;
+    line-height: 40px;
+    float: left;
+}
+header .weixin,.qq,.weibo{
+    width: 26px;
+    height: 25px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    float: right;
+    margin-right: 20px;
+    margin-top: 8px;
+    cursor: pointer;
+}
+header .weixin{
+    background-position: -465px -132px;
+}
+header .qq{
+    background-position: -456px -167px;
+}
+header .weibo{
+    background-position: -466px -106px;
+}
+header .navbar{
+    background-color: #1DB176;
+    color: #FFF;
+    margin-bottom: 0;
+    border: none;
+    border-radius: 0;
+}
+header .navbar-nav{
+    float: right;
+    margin-right: 8%;
+}
+header .navbar-nav li{
+    text-align: center;
+    list-style-type: none;
+    width: 80px;
+    cursor: pointer;
+}
+header .navbar-nav .nav-title{
+    padding-top: 35px;
+    padding-bottom: 30px;
+}
+header .navbar-nav .nav-white{;
+    height: 5px;
+}
+.navbar-nav li:hover .nav-white{
+    background-color: #FFF;
+}
+/*main*/
+main{
+    background-color: #FAFAFA;
+}
+main .item{
+    cursor: pointer;
+}
+main .publicize{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+main .publicize .i1{
+    width: 43px;
+    height: 62px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -94px -111px;
+    margin: auto;
+}
+main .publicize .i2{
+    width: 60px;
+    height: 48px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -441px -57px;
+    margin: auto;
+    margin-top: 14px;
+}
+main .publicize .i3{
+    width: 52px;
+    height: 55px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -441px 0;
+    margin: auto;
+    margin-top: 7px;
+}
+main h4{
+    font-weight: 600;
+    line-height: 60px;
+    text-align: center;
+}
+main  h6{
+    color: #999;
+}
+main .publicize .h6-regulation{
+    width: 200px;
+    margin: auto;
+}
+main .publicize .i4{
+    width: 14px;
+    height: 14px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -502.5px 1px;
+    float: left;
+}
+main .publicize span{
+    display: block;
+    font-size: 0.65rem;
+    margin-top: -3px;
+
+    color: #1DB176;
+}
+main .publicize .i4-regulation{
+    margin-top: 30px;
+}
+main .publicize-4{
+    padding-top: 30px;
+    border-left-style: dashed;
+    border-left-width: 1px;
+    border-left-color: #DEDEDE;
+    padding-bottom: 30px;
+    padding-left: 40px;
+}
+
+main .step{
+    height: 40px;
+    width: 40px;
+    background-color: #FFF;
+    border-radius: 50%;
+    box-shadow: 1px 1px 5px #888888;
+    float: right;
+}
+main .step span{
+    display: block;
+    padding-top: 10px;
+    text-align: center;
+}
+main .step-font{
+    color: #999;
+    width: 120px;
+    float: left;
+}
+main .step-into{
+    width: 27px;
+    height: 26px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -266px -169px;
+    float: right;
+    position: relative;
+    top: 10px;
+}
+main .avator{
+    width: 108px;
+    height: 108px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -331px 0;
+    margin: 0 auto;
+}
+main .teacher{
+    background-color: #FFF;
+    padding: 20px;
+    border: solid;
+    border-color: #E2E2E2;
+    border-width: 1px;
+}
+main .row .footer{
+    padding: 5px;
+    border-radius: 50%;
+    background-color: #FFF;
+    border: solid;
+    border-color: #E2E2E2;
+    border-width: 1px;
+}
+main .width{
+    margin-top: 5px;
+    width: 60px;
+}
+main .container .row .active{
+    background-color: #1DB176;
+}
+main .cooperation1{
+    width: 144px;
+    height: 55px;
+    background-position: -320px -111px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+main .cooperation2{
+    width: 53px;
+    height: 58px;
+    background-position: -139px -111px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+main .cooperation3{
+    width: 134px;
+    height: 47px;
+    background-position: -320px -168px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+main .cooperation4{
+    width: 170px;
+    height: 39px;
+    background-position: -94px -175px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+main .cooperation5{
+    width: 124px;
+    height: 56px;
+    background-position: -194px -111px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    margin: auto;
+}
+main .cooperation{
+    width: 20%;
+    padding: 30px 0;
+    background-color: #FFF;
+}
+main .coo-main{
+    display: flex;
+}
+.cpd{
+    padding: 0;
+}
+footer{
+
+}
+footer h4{
+    font-weight: 600;
+    line-height: 50px;
+    text-align: center;
+}
+footer li{
+    width: 10%;
+    color: #999;
+    font-size: 0.6rem;
+    float: left;
+    cursor: pointer;
+}
+.footer-a-under{
+    width: 63px;
+    height: 2px;
+    background-color: #1DB176;
+    position: relative;
+    left: -15px;
+    display: none;
+}
+footer li:hover .footer-a-under{
+    display: block;
+}
+footer .footer-bottom{
+    background-color: #1DB176;
+    padding-bottom: 5px;
+}
+footer h5{
+    color: #FFF;
+}
+footer h6{
+    color: #FFF;
+    cursor: pointer;
+}
+footer .QR-code{
+    width: 92px;
+    height: 92px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: 0 -111px;
+}
