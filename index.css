@@ -43,9 +43,12 @@ header .navbar{
     border: none;
     border-radius: 0;
 }
+header .container{
+    padding: 0;
+}
 header .navbar-nav{
     float: right;
-    margin-right: 8%;
+
 }
 header .navbar-nav li{
     text-align: center;
@@ -62,6 +65,9 @@ header .navbar-nav .nav-white{;
 }
 .navbar-nav li:hover .nav-white{
     background-color: #FFF;
+}
+header img{
+    margin-top: 20px;
 }
 /*main*/
 main{
