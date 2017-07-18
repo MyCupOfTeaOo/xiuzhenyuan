@@ -167,12 +167,36 @@ main .step-into{
     position: relative;
     top: 10px;
 }
-main .avator{
+main .avator1{
     width: 108px;
     height: 108px;
     background-image: url("CssGaga.png");
     background-repeat: no-repeat;
     background-position: -331px 0;
+    margin: 0 auto;
+}
+main .avator2{
+    width: 108px;
+    height: 108px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    margin: 0 auto;
+}
+main .avator3{
+    width: 108px;
+    height: 108px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -111px 0;
+    margin: 0 auto;
+}
+main .avator4{
+    width: 108px;
+    height: 108px;
+    background-image: url("CssGaga.png");
+    background-repeat: no-repeat;
+    background-position: -221px 0;
     margin: 0 auto;
 }
 main .teacher{
@@ -248,9 +272,10 @@ main .coo-main{
 .cpd{
     padding: 0;
 }
-footer{
-
+.carousel-inner img{
+    width: 100%;
 }
+/*footer*/
 footer h4{
     font-weight: 600;
     line-height: 50px;
