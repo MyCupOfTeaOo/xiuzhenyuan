@@ -51,8 +51,6 @@ main .stud .detail{
 main .detail .row div{
     padding: 10px;
     color: #999;
-    border-bottom: solid 1px #EDF1F2;
-    border-top: solid 1px #EDF1F2;;
 }
 main .detail img{
     width: 17px;
@@ -86,4 +84,17 @@ main .sm4{
     margin-top: 40px;
 
 
+}
+/*调整*/
+.b-top{
+    border-top: solid 1px #EDF1F2;
+}
+.b-bottom{
+    border-bottom: solid 1px #EDF1F2;
+}
+.b-left{
+    border-left: solid 1px #EDF1F2;
+}
+.b-right{
+    border-right: solid 1px #EDF1F2;
 }
