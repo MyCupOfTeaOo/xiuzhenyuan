@@ -12,20 +12,31 @@
 <body>
 <header>
     <div class="container">
-        <div class="row">
-            <div class="col-md-5"><span>客服热线：010-594-78634</span></div>
+        <div class="row header1">
+            <div class="col-md-5"><span class="span1">客服热线：010-594-78634</span></div>
             <div class="col-md-7"><div class="weibo"></div><div class="qq"></div>
                 <div class="weixin"></div></div>
         </div>
     </div>
     <div class="navbar navbar-default">
-        <div class="container">
-            <img src="jns.jpg">
+        <div class="container cpd">
+            <div class="dropdown navbar2">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+                <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="nav2.html">职业</a></li>
+                    <li><a href="#">推荐</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="jnshu-cooperation.html">关于</a></li>
+                </ul>
+            </div>
             <ul class="navbar-nav">
-                <li><div class="nav-title">首页</div><div class="nav-white"></div></li>
-                <li><div class="nav-title">职业</div><div class="nav-white"></div></li>
+                <li onclick="javascript:window.location.href='index.html'"><div class="nav-title">首页</div><div class="nav-white"></div></li>
+                <li onclick="location='nav2.html'"><div class="nav-title">职业</div><div class="nav-white"></div></li>
                 <li><div class="nav-title">推荐</div><div class="nav-white"></div></li>
-                <li><div class="nav-title">关于</div><div class="nav-white"></div></li>
+                <li onclick="location='jnshu-cooperation.html'"><div class="nav-title">关于</div><div class="nav-white"></div></li>
             </ul>
         </div>
     </div>

@@ -5,13 +5,15 @@ html {
     font-weight:500;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    overflow-x: hidden;
 }
 body{
     margin: 0;
 }
 
 /*header*/
-header span{
+
+header .span1{
     font-size: 0.7rem;
     color: #1DB176;
     line-height: 40px;
@@ -43,9 +45,7 @@ header .navbar{
     border: none;
     border-radius: 0;
 }
-header .container{
-    padding: 0;
-}
+
 header .navbar-nav{
     float: right;
 
@@ -69,6 +69,22 @@ header .navbar-nav .nav-white{;
 header img{
     margin-top: 20px;
 }
+.navbar2{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+}
+.navbar2 .btn{
+    background-color: #1DB176;
+    border: none;
+    font-size: 1.2rem;
+    color: #1D734F;
+    padding: 6px 10px 0 10px;
+}
+header .navbar .container .open .btn-default {
+    background-color: #218D60;
+}
+
 /*main*/
 main{
     background-color: #FAFAFA;
@@ -115,7 +131,7 @@ main  h6{
     color: #999;
 }
 main .publicize .h6-regulation{
-    width: 200px;
+    max-width: 200px;
     margin: auto;
 }
 main .publicize .i4{
@@ -269,6 +285,7 @@ main .cooperation5{
 }
 main .cooperation{
     width: 20%;
+    min-width: 180px;
     padding: 30px 0;
     background-color: #FFF;
 }
@@ -281,6 +298,7 @@ main .coo-main{
 .carousel-inner img{
     width: 100%;
 }
+
 /*footer*/
 footer h4{
     font-weight: 600;
@@ -322,4 +340,72 @@ footer .QR-code{
     background-image: url("CssGaga.png");
     background-repeat: no-repeat;
     background-position: 0 -111px;
+}
+/**/
+.mybug1{
+    margin-top: 40px
+}
+/*media*/
+@media (min-width: 768px) {
+    .navbar2{
+        display: none;
+    }
+}
+@media (max-width: 767px) {
+    header .header1{
+        display: none;
+    }
+    footer .footer-bottom .container{
+        padding-left: 25px;
+    }
+    main .publicize-4 {
+        padding-top: 30px;
+        border-left: none;
+        padding-bottom: 30px;
+    }
+
+    .media-my1 {
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    main .step {
+        float: none;
+        margin: 0 auto;
+    }
+
+    main .step-font {
+        width: auto;
+        float: none;
+    }
+
+    main h6 {
+        text-align: center;
+    }
+    .mybug1{
+        margin-top: 0
+    }
+    .mybug2{
+        display: none;
+    }
+    .navbar-nav{
+        display: none;
+    }
+    .h6-regulation{
+        padding-bottom: 40px;
+    }
+    header img{
+        margin: 10px;
+    }
+}
+@media (max-width: 991px) {
+    .step-into{
+        display: none;
+    }
+    main .coo-main{
+        display: block;
+    }
+    main .cooperation{
+        margin: 0 auto;
+    }
 }
