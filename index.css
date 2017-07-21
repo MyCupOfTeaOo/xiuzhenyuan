@@ -319,6 +319,7 @@ main .cooperation{
     padding: 30px 0;
     background-color: #FFF;
     cursor: pointer;
+    border: solid;border-color: #FFF;border-width: 1px;
 }
 main .cooperation:hover{
     border: solid;border-color: #E2E2E2;border-width: 1px;
@@ -378,6 +379,12 @@ footer .QR-code{
 /**/
 .mybug1{
     margin-top: 40px
+}
+.underline{
+    padding-bottom: 4px;border-bottom: solid;border-color: #1DB176;border-bottom-width: 1px
+}
+.underline:hover{
+    padding-bottom: 4px;border-bottom: solid;border-color: #FFF;border-bottom-width: 1px
 }
 /*media*/
 @media (min-width: 768px) {
