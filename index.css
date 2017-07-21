@@ -18,6 +18,7 @@ header .span1{
     color: #1DB176;
     line-height: 40px;
     float: left;
+    white-space:nowrap;
 }
 header .weixin,.qq,.weibo{
     width: 26px;
