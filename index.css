@@ -355,12 +355,15 @@ footer .QR-code{
         display: none;
     }
 }
+@media (max-width: 768px){
+    footer .footer-bottom .container{
+        padding-left: 25px;
+    }
+
+}
 @media (max-width: 767px) {
     header .header1{
         display: none;
-    }
-    footer .footer-bottom .container{
-        padding-left: 25px;
     }
     main .publicize-4 {
         padding-top: 30px;
@@ -373,21 +376,8 @@ footer .QR-code{
         width: 200px;
     }
 
-    main .step {
-        float: none;
-        margin: 0 auto;
-    }
-
-    main .step-font {
-        width: auto;
-        float: none;
-    }
-
-    main h6 {
-        text-align: center;
-    }
-    .mybug1{
-        margin-top: 0
+    main .step-into{
+        display: none;
     }
     .mybug2{
         display: none;
@@ -404,13 +394,41 @@ footer .QR-code{
     }
 }
 @media (max-width: 991px) {
-    .step-into{
-        display: none;
-    }
+
     main .coo-main{
         display: block;
     }
     main .cooperation{
+        width: 80%;
+        min-width: 180px;
         margin: 0 auto;
+        background-color: #FFF;
+        cursor: pointer;
+    }
+    footer .col-md-2{
+        padding-left: 0;
+    }
+    .step-into2{
+        display: none;
+    }
+    .f1{
+        margin-bottom: 40px;
+    }
+}
+@media (max-width: 424px){
+    .f2{
+        float: none;
+        margin: 0 auto;
+        width: 80%;
+        margin-bottom: 40px;
+    }
+    .f2>.row .step-font{
+        width: auto;
+    }
+    .f1{
+        margin-bottom: 0;
+    }
+    .mybug1{
+        margin-top: 0;
     }
 }
