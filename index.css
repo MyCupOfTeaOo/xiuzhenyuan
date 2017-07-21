@@ -402,9 +402,7 @@ footer .QR-code{
 
 }
 @media (max-width: 767px) {
-    header .header1{
-        display: none;
-    }
+
     main .publicize-4 {
         padding-top: 30px;
         border-left: none;
