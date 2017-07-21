@@ -84,8 +84,35 @@ header img{
     color: #1D734F;
     padding: 6px 10px 0 10px;
 }
-header .navbar .container .open .btn-default {
+header .navbar .container .btn-default:focus {
     background-color: #218D60;
+    outline: none;
+    color: #1D734F;
+}
+header .navbar .container .btn-default:active {
+    background-color: #218D60;
+    color: #1D734F;
+}
+header .navbar-collapse{
+    text-align: center;
+    border-top: solid;border-color: #E2E2E2;border-width: 1px;
+}
+header .nav a{
+    color: #FFF;
+}
+header .nav>li>a:hover{
+    background-color: #1DB176;
+    border-bottom: solid;border-color: #FFF;border-width: 1px;
+}
+header .nav>li>a:focus{
+    background-color: #1DB176;
+    border-bottom: solid;border-color: #FFF;border-width: 1px;
+}
+a{
+    color: #FFF;;
+}
+header .tanchuang{
+    background-color: #1DB176;
 }
 
 /*main*/
@@ -293,6 +320,9 @@ main .cooperation{
     background-color: #FFF;
     cursor: pointer;
 }
+main .cooperation:hover{
+    border: solid;border-color: #E2E2E2;border-width: 1px;
+}
 main .coo-main{
     display: flex;
 }
@@ -352,6 +382,9 @@ footer .QR-code{
 /*media*/
 @media (min-width: 768px) {
     .navbar2{
+        display: none;
+    }
+    header .tanchuang{
         display: none;
     }
 }

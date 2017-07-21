@@ -66,6 +66,9 @@ main .detail .red{
 main .detail .black{
     color: #333;
 }
+main .detail .black-l{
+    float: right;
+}
 main .detail .col-xs-7 .row{
     margin: 0 -10px;
 }
