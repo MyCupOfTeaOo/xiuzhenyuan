@@ -68,6 +68,9 @@ header .navbar-nav .nav-white{;
 }
 header img{
     margin-top: 20px;
+    margin-left: 15px;
+    float: left;
+
 }
 .navbar2{
     position: absolute;
@@ -288,6 +291,7 @@ main .cooperation{
     min-width: 180px;
     padding: 30px 0;
     background-color: #FFF;
+    cursor: pointer;
 }
 main .coo-main{
     display: flex;
@@ -396,6 +400,7 @@ footer .QR-code{
     }
     header img{
         margin: 10px;
+
     }
 }
 @media (max-width: 991px) {
